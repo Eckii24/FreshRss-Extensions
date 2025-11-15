@@ -443,9 +443,11 @@ final class YouTubeExtension extends Minz_Extension
 				width="' . $this->width . '"
 				height="' . $this->height . '"
 				src="' . $url . '"
+				title="YouTube video player"
 				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				referrerpolicy="strict-origin-when-cross-origin"
-				allowFullScreen></iframe>';
+				allowfullscreen></iframe>';
 
 		if ($this->showContent) {
 			$doc = new DOMDocument();

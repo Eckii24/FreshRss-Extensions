@@ -8,6 +8,7 @@ To use it, upload the ```xExtension-YouTube``` directory to the FreshRSS `./exte
 
 - Embeds Youtube videos directly in FreshRSS, instead of linking to the Youtube page
 - Simplifies the subscription to channel URLs by automatically detecting the channels feed URL
+- Complies with YouTube's [embedded player API client identity requirements](https://developers.google.com/youtube/terms/required-minimum-functionality#embedded-player-api-client-identity)
 
 You can simply add Youtube video subscriptions by pasting URLs like:
 - `https://www.youtube.com/channel/UCwbjxO5qQTMkSZVueqKwxuw`
@@ -22,6 +23,10 @@ With activated Youtube extension:
 ![screenshot after](https://github.com/kevinpapst/freshrss-youtube/blob/screenshot-readme/after.png?raw=true "After activating the extension you can enjoy your video directly in the FreshRSS stream")
 
 ## Changelog
+
+0.13:
+- Enhanced YouTube embedded player with proper `allow` attribute and `title` for accessibility
+- Improved compliance with YouTube's embedded player API client identity requirements
 
 0.12:
 - Turkish language support added
